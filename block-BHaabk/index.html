@@ -1,0 +1,79 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5eb3afa5a4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+        <a class="brand" href="#">KADAK CHAi</a>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">gallery</a>
+        </nav>
+    </div>
+    </header>   
+    <main class="container">
+        <article class="article">
+            <div class="section1">
+                <div class="col1-1">
+                    <h2>Kadak Chai is good for Health.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias hic nulla veritatis obcaecati ullam voluptatum aperiam quaerat culpa repudiandae perferendis ratione magni quasi, soluta velit, temporibus repellat cupiditate aspernatur mollitia!</p>
+                </div>
+                <div class="col1-2">
+                    <img src="https://5.imimg.com/data5/JQ/RZ/CC/SELLER-18856673/kadak-tea-500x500.jpg" alt="chai">
+                </div> 
+            </div>
+           </article>
+           <section class="gallery">
+               <div class="container section2">
+                   <div class="row1">
+                       <div class="row col1">
+                           <img src="https://masalaandchai.com/wp-content/uploads/2021/07/Masala-Chai-Featured.jpg" alt="chai">
+                       </div>
+                       <div class="row col2">
+                        <img src="https://masalaandchai.com/wp-content/uploads/2021/07/Masala-Chai-Featured.jpg" alt="chai">
+                       </div>
+                        <div class="row col3">
+                        <img src="https://masalaandchai.com/wp-content/uploads/2021/07/Masala-Chai-Featured.jpg" alt="chai">
+                    </div>
+                   </div>
+                   <div class="row2">
+                    <div class="row col2-1">
+                        <img src="https://masalaandchai.com/wp-content/uploads/2021/07/Masala-Chai-Featured.jpg" alt="chai">
+                    </div>
+                    <div class="row col2-2">
+                     <img src="https://masalaandchai.com/wp-content/uploads/2021/07/Masala-Chai-Featured.jpg" alt="chai">
+                 </div>
+                 <div class="row col2-3">
+                     <img src="https://masalaandchai.com/wp-content/uploads/2021/07/Masala-Chai-Featured.jpg" alt="chai">
+                 </div>
+                </div>
+               </div>
+           </section>
+        </main>
+        <footer class="footer">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </footer>
+</body>
+</html>
