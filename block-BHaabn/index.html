@@ -1,0 +1,70 @@
+<!-- 
+- Create a gallery using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-1.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5eb3afa5a4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:ital,wght@0,500;1,300;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+     <header class="header">
+            <div class="container flex">
+             <a class="brand-image" href="#">
+                <img src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5d825aa26de3150009a4616c%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D0%26cropX2%3D416%26cropY1%3D0%26cropY2%3D416" alt="Brand Logo">
+             </a>
+             <nav class="nav">
+                <a href="#">Home</a>
+                <a class="gal" href="#">Gallery</a>
+                <a href="#">About</a>
+             </nav>
+            </div>
+     </header>
+     <section class="gallery">
+         <div class="container heading">
+         <h1 class="gallery-heading">Gallery</h1>
+         <div class="gallery-images">
+             <div class="col col1">
+                 <img src="assets/01.png" alt="Boards">
+             </div>
+             <div class="col col2">
+                <img src="assets/02.png" alt="Boards">
+            </div>
+            <div class="col col3">
+                <img src="assets/03.png" alt="Boards">
+            </div>
+            <div class="col col4">
+                <img src="assets/04.png" alt="Boards">
+            </div>
+            <div class="col col5">
+                <img src="assets/05.png" alt="Boards">
+            </div>
+            <div class="col col6">
+                <img src="assets/06.png" alt="Boards">
+            </div>
+         </div>
+        </div>
+     </section>
+     <footer class="footer container">
+         <div class="flex">
+            <p class="para">&copy;Amazon</p>
+            <div class="link">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+         </div>
+     </footer>
+</body>
+</html>
